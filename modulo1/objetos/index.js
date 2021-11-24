@@ -82,60 +82,75 @@
     
     // a) Crie um objeto. Ele deve conter duas propriedades: nome (string) e apelidos (um array que sempre terá exatamente **três apelidos**). Depois, escreva uma função que recebe como entrada um objeto e imprime uma mensagem no modelo abaixo**:** 
     
-//     // // Exemplo de entrada
-//     // const pessoa = {
-//     //    nome: "Amanda", 
-//     //    apelidos: ["Amandinha", "Mandinha", "Mandi"]
-//     // }
-    
-//    const pessoa = {
-//        nome: "Raul",
-//        apelidos: ["Cabeção","luar","pudge"],
-//        } 
-    
-//        const consolidacao=(apelidostop)=> {
-//        const frase = `oi meu nome é ${pessoa.nome}, mas você pode me chamar de: ${pessoa.apelidos[1]}`
-//        console.log(frase)
-        
+// const pessoa = {
+//   nome: "Raul",
+//   apelidos: ["Cabeção", "Magrelo", "duck"]
+// };
 
-    
-     
-//     }
-//     consolidacao(pessoa)
+// function imprimePessoa(objeto2) {
+//   console.log(
+//     `Eu sou ${objeto2.nome}, mas pode me chamar de: ${objeto2.apelidos[0]}, ${objeto2.apelidos[1]} ou ${objeto2.apelidos[2]}`
+//   );
+// }
+
+// imprimePessoa(pessoa);
+
+// // (b)
+
+// const novaPessoa = { ...pessoa, apelidos: ["Taul", "luar", "spider"] };
+
+// imprimePessoa(novaPessoa);
   
         
     
     
-//     // b) Agora, usando **o operador spread**, crie um novo objeto mantendo o valor da propriedade nome, mas com uma nova lista de três apelidos. Depois, chame a função feita no item anterior passando como argumento o novo objeto
-    
-//  const novoapelido ={
-//    ...consolidacao,
-//    apelidos:["berlin","sumurai","cavalo" ],
 
-//  }
 
-// console.log(novoapelido)
+
+
 
 // 2. Resolva os passos a seguir: 
     
     // a) Crie dois objetos diferentes com as seguintes propriedades: nome, idade e profissão. 
-    const objeto ={
-    nome: "Bruno",
-    idade:"23",
-    profissão: "instrutor"
-    }
+    // const objetos ={
+    // nome: "Bruno",
+    // idade:"23",
+    // profissão: "instrutor"
+    // }
 
-    const objeto1 ={
-        nome: "Raul",
-        idade:"24",
-        profissão: "aluno"
-    }
+    // const objeto1 ={
+    //     nome: "Raul",
+    //     idade:"24",
+    //     profissão: "aluno"
+    // }
 
-    // b) Escreva uma função que receba esses objetos e retorne um array com as seguintes informações:
-     const retornartudo=(obejeto) => {
-     console.log(`${objeto.nome}, ${objeto.nome.length}, ${objeto.profissão}, ${obejeto.profissão.length}`)
+    // // b) Escreva uma função que receba esses objetos e retorne um array com as seguintes informações:
+    //  const retornartudo=(objeto) => {
+    //  return console.log(`${objeto.nome}, ${objeto.nome.length}, ${objeto.profissão}, ${objeto.profissão.length}`)
 
-     } 
-     retornartudo(objeto)
+    //  } 
+    //  retornartudo(objetos)
         
-   
+    //  3. Resolva os passos a seguir: 
+    
+    //  a) Crie uma variável de escopo global que guarde um `array` vazio chamada `carrinho`
+//     const carrinho = []
+//     //  b) Crie três novos objetos que representem frutas de um sacolão. Eles devem ter as seguintes propriedades: nome (`string`) e disponibilidade (`boolean` - devem começar como `true`)
+//      const frutas ={
+//          nome: "melão",
+//          nome2:"uva",
+//          disponibilidade: "True"
+//      }
+//     //  c) Crie uma função que **receba** um objeto fruta por **parâmetro** e coloque-a dentro do array de `carrinho`. Invoque essa função passando os três objetos criados. 
+//      function receberfruta(fruta){
+//        carrinho.push(fruta)
+
+//      }
+//          receberfruta(frutas)
+
+     
+//     //  d) Imprima a variável `carrinho` e garanta que ela agora seja um **array preenchido com três objetos.** 
+     
+//    console.log(carrinho)
+
+
