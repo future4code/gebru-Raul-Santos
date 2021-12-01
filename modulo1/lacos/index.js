@@ -68,12 +68,76 @@
 // const arrayOriginal = [10,20,30,40,50,60]
 // function imprimirTudo (array){
 
-// for ( let i = 0; i < array.length; i++ )
-// return array.length
+// for ( let imprirmir of array )
+// console.log(imprirmir)
 
 // }
 
-// imprimirTudo = (arrayOriginal)
-// console.log(imprimirTudo)
+// imprimirTudo(arrayOriginal)
 
-//!!!!!!!!! Atividade em Andamento ainda !!!!!
+
+// b
+
+// const arrayOriginal = [10,20,30,40,50,60]
+// function imprimirTudo (array){
+
+// for ( let dividir of array){
+//     console.log(dividir/10)
+// }
+
+// }
+
+// imprimirTudo(arrayOriginal)
+
+// c
+// const arrayOriginal = [09,01,10,20,30,40,50,60]
+// function imprimirPares (array) {
+//   let arrayNumerosPares = []
+//   for(let valor of array){
+//     if(valor % 2 === 0){
+//       arrayNumerosPares.push(valor)
+//     }
+
+//   }
+//   console.log(arrayNumerosPares)
+// }
+// imprimirPares(arrayOriginal)
+
+//d
+
+// const arrayString = [10,35,42]
+
+// function novoArray (arrayString){
+// let texto = []
+// let i = 0
+
+// for (let txt of arrayString){
+//     texto.push(`o elemento do index ${i} é ${txt} `) 
+//     i++
+//     console.log(texto)
+// }
+
+// }
+// novoArray (arrayString)
+
+//e
+
+// const arrayString = [10,35,42]
+
+// function valores (array){
+// let valorMaximo = 42
+// let valorMinimo = 10
+
+// for (let valores of array)
+// if (valorMaximo > valorMinimo){
+//     console.log(valorMaximo) 
+//     console.log(valorMinimo)
+
+// }
+
+
+
+// }
+
+// valores(arrayString)
+
