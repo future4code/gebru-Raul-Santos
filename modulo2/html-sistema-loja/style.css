@@ -1,0 +1,216 @@
+
+                           /* relacionado com index.html */
+
+.titulo-home{
+ 
+    color:white;
+    background-color: black;
+    padding: 10px;
+    block-size: auto;  
+    text-align: center;  
+
+}
+
+.sub-titulo{
+
+    text-align: center;
+
+}
+
+.link1-home1-pag1{
+
+    margin: 50px;
+    background-color: rgb(22, 22, 107);
+    color: white;
+
+}
+
+.link2-home1-pag1{
+
+    margin: 50px;
+    background-color: rgb(22, 22, 107);
+    color: white;
+
+}
+
+.link3-home1-pag1{
+
+    margin: 50px;
+    background-color: rgb(22, 22, 107);
+    color: white;
+
+}
+
+.link4-home1-pag1{
+
+    margin: 50px;
+    background-color: rgb(22, 22, 107);
+    color: white;
+
+}
+
+                                    /* relacionado com funcionarios */
+
+
+.nome-loja-funcionario{
+
+    text-align: center;
+    color: white;
+    background-color: black;
+
+}
+
+.link1-home2-pag2{
+
+    margin: 50px;
+    background-color: rgb(22, 22, 107);
+    color: white;
+
+}
+
+.link2-home2-pag2{
+
+    margin: 50px;
+    background-color: rgb(22, 22, 107);
+    color: white;
+
+}
+
+.link3-home2-pag2{
+
+    margin: 50px;
+    background-color: rgb(22, 22, 107);
+    color: white;
+
+}
+
+.link4-home2-pag2{
+
+    margin: 50px;
+    background-color: rgb(22, 22, 107);
+    color: white;
+
+}
+
+.funcionario1{
+    color: blue;
+}
+.funcionario2{
+    color: blue;
+}
+.funcionario3{
+    color: blue;
+}
+
+                                    /* relacionado com Estoque */
+
+.nome-loja-estoque{
+
+    text-align: center;
+    color: white;
+    background-color: black;
+
+}
+
+.link1-home3-pag3{
+
+    margin: 50px;
+    background-color: rgb(22, 22, 107);
+    color: white;
+
+}
+
+.link2-home3-pag3{
+
+    margin: 50px;
+    background-color: rgb(22, 22, 107);
+    color: white;
+
+}
+
+.link3-home3-pag3{
+
+    margin: 50px;
+    background-color: rgb(22, 22, 107);
+    color: white;
+
+}
+
+.link4-home3-pag3{
+
+    margin: 50px;
+    background-color: rgb(22, 22, 107);
+    color: white;
+
+}
+.alinhar-qtd1{
+
+    text-align: center;
+
+}
+
+.alinhar-qtd2{
+
+    text-align: center;
+
+}
+
+.alinhar-qtd3{
+
+    text-align: center;
+
+}
+
+.alinhar-qtd4{
+
+    text-align: center;
+
+}
+
+                                    /* relacionado com produdo */
+
+
+.nome-loja-produto{
+
+    text-align: center;
+    color: white;
+    background-color: black;
+
+}
+
+.link1-home4-pag4{
+
+    margin: 50px;
+    background-color: rgb(22, 22, 107);
+    color: white;
+
+}
+
+.link2-home4-pag4{
+
+    margin: 50px;
+    background-color: rgb(22, 22, 107);
+    color: white;
+
+}
+
+.link3-home4-pag4{
+
+    margin: 50px;
+    background-color: rgb(22, 22, 107);
+    color: white;
+
+}
+
+.link4-home4-pag4{
+
+    margin: 50px;
+    background-color: rgb(22, 22, 107);
+    color: white;
+
+}
+
+.imagem-fundo{
+
+    background-image: url(../html-sistema-loja/Imagens/PS1/PS1.jpg);
+}
