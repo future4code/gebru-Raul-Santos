@@ -1,15 +1,17 @@
 body{
 
     background-color: black;
+    max-width: 50%;
 }
+
 
 
 
 .container{
 
     display: grid;
-    background-color: wheat;
-    border: solid wheat;
+    
+    border: solid rgb(0, 0, 0);
     grid-template-columns: 65px 65px 65px 65px 65px 65px 65px 65px 65px 65px 65px 65px 65px 65px 65px 65px 65px 65px 65px 65px ;
     
 }
@@ -23,36 +25,28 @@ height: 80px;
 
 }
 
-.nome_superio{
-
-    
-    height: 65px;
-    width: 900px;
-    color: rgb(0, 0, 0);
-    grid-column-start: 3;
-    grid-row-start: 1;
-    text-align: center;
-    font-size: 29px;
-    font-weight: bold
-    
-}
 
 .logo_superio{
 
     
     height: 50px;
     width: 500px;
-    grid-column-start: 1;
+    grid-column-start: 10;
     grid-row-start: 1;
+
     
 }
 
 .container div img{
 
-    height: 80px;
+    height: 190px;
     max-width: 150px;
     justify-content: center;
+    border-radius: 50%;
+
 }
+
+
 
 
 
@@ -63,7 +57,11 @@ height: 80px;
     width: 45px;
     color: white;
     grid-column-start: 16;
-    align-items:center;
+    grid-row-start: 1;
+    align-items:flex-end;
+    text-align: center;
+    font-size: 49px;
+    
     
 }
 
@@ -74,6 +72,9 @@ height: 80px;
     width: 45px;
     color: white;
     grid-column-start: 18;
+    align-items:flex-end;
+    text-align: center;
+    font-size: 49px;
 }
 
 .botao_superio3{
@@ -83,15 +84,9 @@ height: 80px;
     width: 45px;
     color: white;
     grid-column-start: 20;
-}
-
-.botao_superio4{
-
-        
-    height: 45px;
-    width: 45px;
-    color: white;
-    grid-column-start: 20;
+    align-items:flex-end;
+    text-align: center;
+    font-size: 49px;
 }
 
 
