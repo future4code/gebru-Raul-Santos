@@ -1,0 +1,66 @@
+*{
+
+max-width: 1200vw;
+max-height: 1200vh;
+
+
+}
+
+header {
+
+display: flex;
+align-items: center;
+justify-content: space-between;
+background-color: orange;
+padding: 0 20px;
+
+}
+
+main{
+
+box-shadow: 2px 2px 5px darkgray;
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows: repeat(2, 1fr);
+row-gap: 20px;
+column-gap: 20px;
+margin: 20px;
+border: solid black;
+text-align: center;
+align-items: center;
+
+
+
+}
+
+
+
+main video{
+
+width: 190px;
+box-shadow: 2px 2px 5px darkgray;
+
+
+}
+
+
+.Card Video {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 2px 5px darkgray;
+    text-align: center;
+    width: 100%;
+}
+
+
+footer{
+
+    background-color: orange;
+    text-align: center;
+    
+
+
+}
+
