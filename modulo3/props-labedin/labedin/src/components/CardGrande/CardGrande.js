@@ -10,12 +10,18 @@ padding: 20px 10px;
 margin-bottom: 10px;
 height: 200px;
 `
+const ImagensGrandeCard = styled.img`
 
+width: 70px;
+    margin-right: 10px;
+    border-radius: 50%;
+
+`
 
 function CardGrande(props) {
     return (
         <CardGrand >
-            <img src={ props.imagem } />
+            <ImagensGrandeCard src={ props.imagem } />
             <div>
                 <h4>{ props.nome }</h4>
                 <p>{ props.descricao }</p>

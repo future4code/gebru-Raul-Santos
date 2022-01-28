@@ -3,9 +3,12 @@ import './App.css';
 import CardGrande from './components/CardGrande/CardGrande';
 import CardPequeno from './components/CardPequeno/CardPequeno';
 import ImagemButton from './components/ImagemButton/ImagemButton';
-
-
-
+import Raul from './Img/Raul.jpg'
+import Emails from './Img/email.png'
+import Endereço from './Img/Endereco.png'
+import Nasa from './Img/Nasa.png'
+import Facebook from './Img/Facebook.png'
+import Twitter from './Img/Twitter.png'
 
 
 
@@ -15,7 +18,7 @@ function App() {
       <div className="page-section-container">
         <h2>Dados pessoais</h2>
         <CardGrande 
-          imagem="https://uploads-ssl.webflow.com/5d640f4558306be99cf47a0e/5dd57846babb597b77c6bb1d_PerfilFuture4_cor.png" 
+          imagem={Raul} 
           nome="Raul Cezar" 
           descricao="Oi, eu sou o Raul, Tenho 24 anos e sou desenvolvedor Full-Stack."
         /> 
@@ -28,7 +31,7 @@ function App() {
       <div classeName="Page-section-Container">
 
       <CardPequeno
-          imagem="https://uploads-ssl.webflow.com/5d640f4558306be99cf47a0e/5dd57846babb597b77c6bb1d_PerfilFuture4_cor.png"  
+          imagem={Emails}  
           email="Email: raulcezarhaha@gmail.com."
        />
       </div>
@@ -36,7 +39,7 @@ function App() {
             <div classeName="Page-section-Container">
 
       <CardPequeno
-          imagem="https://uploads-ssl.webflow.com/5d640f4558306be99cf47a0e/5dd57846babb597b77c6bb1d_PerfilFuture4_cor.png"  
+          imagem={Endereço}  
           email="Rua: Lima Sobrinho, Liberdade 2."
        />
       </div>
@@ -52,7 +55,7 @@ function App() {
         />
         
         <CardGrande 
-          imagem="https://imagens.canaltech.com.br/empresas/4418.400.jpg" 
+          imagem={Nasa} 
           nome="NASA" 
           descricao="Apontando defeitos." 
         />
@@ -61,12 +64,12 @@ function App() {
       <div className="page-section-container">
         <h2>Minhas redes sociais</h2>
         <ImagemButton 
-          imagem="https://d2v9ipibika81v.cloudfront.net/uploads/sites/261/2017/01/facebook-logo-3.png" 
+          imagem={Facebook} 
           texto="Facebook" 
         />        
 
         <ImagemButton 
-          imagem="https://logodownload.org/wp-content/uploads/2014/09/twitter-logo-1-1.png" 
+          imagem={Twitter}
           texto="Twitter" 
         />        
       </div>
