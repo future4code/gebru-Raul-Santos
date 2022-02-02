@@ -24,6 +24,7 @@ export class SecaoComentario extends Component {
 	}
 
 	render() {
+		
 		return <CommentContainer>
 			<InputComentario
 				placeholder={'Comentário'}
