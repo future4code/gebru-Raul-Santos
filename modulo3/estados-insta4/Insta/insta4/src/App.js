@@ -21,13 +21,13 @@ class App extends React.Component {
         />
 
         <Post
-          nomeUsuario={'Raul'}
+          nomeUsuario={'Eliane'}
           fotoUsuario={'https://picsum.photos/70/50'}
           fotoPost={'https://picsum.photos/250/150'}
         /> 
 
         <Post
-          nomeUsuario={'Raul'}
+          nomeUsuario={'Isa'}
           fotoUsuario={'https://picsum.photos/10/50'}
           fotoPost={'https://picsum.photos/201/150'}
         /> 
