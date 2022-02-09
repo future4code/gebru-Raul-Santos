@@ -1,24 +1,33 @@
+import react from 'react';
 import logo from './logo.svg';
 import './App.css';
+import etapa1 from './Components/etapa1';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <div>
+
+     <h1>ETAPA 1 DADOS GERAIS</h1>
+
+     <p>1.Qual seu nome?</p>
+     <textarea></textarea>
+
+     <p>2.Qual sua idade?</p>
+     <textarea></textarea>
+
+     <p>3.Qual seu E-mail?</p>
+     <textarea></textarea>
+
+     <p>4.Qual sua Escolaridade?</p>
+     <textarea></textarea>
+
+     <button>Proxima Etapa</button>
+
+
+
+
+
+   </div>
   );
 }
 
