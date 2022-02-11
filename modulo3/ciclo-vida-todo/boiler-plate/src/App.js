@@ -20,17 +20,6 @@ const InputsContainer = styled.div`
   gap: 10px;
 `
 
-const atualizarTarefa = [{
-	id: Date.now(), // aqui, pode deixar o valor Date.now() para todas as tarefas as serem criadas
-	texto:"oi",// aqui, o texto da tarefa virá do input controlado guardado no estado
-	completa: false // aqui, pode deixar o valor false para todas as tarefas as serem criadas, pq a tarefa sempre vai começar como não completa.
-  
-}]
-
-
-
-
-
 class App extends React.Component {
     state = {
       tarefas: [{
@@ -71,11 +60,19 @@ class App extends React.Component {
 
   criaTarefa = () => {
 
+    const atualizarTarefa = {
+      id: Date.now(), // aqui, pode deixar o valor Date.now() para todas as tarefas as serem criadas
+      texto:this.state.inputValue,// aqui, o texto da tarefa virá do input controlado guardado no estado
+      completa: false // aqui, pode deixar o valor false para todas as tarefas as serem criadas, pq a tarefa sempre vai começar como não completa.
+      
+    }
+    
+
     const copiaDoEstado = [...this.state.tarefas]
 
     copiaDoEstado.push(atualizarTarefa)
 
-    this.setState({tarefas: copiaDoEstado})
+    this.setState({tarefas: copiaDoEstado,})
 
  
   }
@@ -100,6 +97,7 @@ class App extends React.Component {
 
    }
 
+y
   onChangeFilter = (event) => {
 
   }
