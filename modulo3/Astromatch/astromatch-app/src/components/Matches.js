@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 import {Container, Header, Div, List, FooterDiv} from '../Styles/Matche'
-import { MySwal } from './SweetAlert2'
+import { Alert } from './clear'
 import AstromatchLogo from '../img/fogo.png'
 import Logo from '../img/casa.png'
 import Chat from '../img/icon.png'
-import Bin from '../img/pokemon.png'
+import Bin from '../img/vasoura.png'
 
 
 const Matches = (props) => {
@@ -27,12 +27,12 @@ const Matches = (props) => {
 
       .put("https://us-central1-missao-newton.cloudfunctions.net/astroMatch/julio-martins-gebru/clear")
       .then(() => getMatches())
-      MySwal.fire({
+      Alert.fire({
         icon: 'error',
         title: 'Lista de Matches deletada!',
         width: 300,
         color: '#716add',
-        background: '#fff url(https://sweetalert2.github.io/images/trees.png)',
+        
         backdrop: `
           rgba(0,0,123,0.4)
           
