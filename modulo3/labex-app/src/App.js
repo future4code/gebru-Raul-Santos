@@ -1,14 +1,15 @@
 import React from "react";
-import { Router } from "./Router";
+import Router from "./routes/Router";
+import Glocal from "./AppStyle"
 
+ function App() {
 
-const App = () => {
   return (
-    <div>
-      <Router/>
-    </div>
+    <>
+      <Glocal />
+      <Router />
+    </>
   );
-};
+}
 
-export default App;
-
+export default App
