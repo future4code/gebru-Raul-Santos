@@ -1,9 +1,9 @@
 enum GENERO {
-	ACAO="ação",
-	DRAMA="drama",
+	ACAO="Terror",
+	DRAMA="comédia",
 	COMEDIA="comédia",
-	ROMANCE="romance",
-	TERROR="terror"
+	ROMANCE="drama",
+	TERROR="Ação"
 }
 
 type Descrição = {
