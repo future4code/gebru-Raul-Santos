@@ -1,10 +1,13 @@
-const exer1 = (nome:string,data:string) =>{
+const exer1 = (nome:string,data:string):string =>{
 
-    nome = "Raul"
-    data = "21/02/1997"
-    data.split(data,2)
+    const arraydata : string[] = data.split("/");
+    
 
-    console.log(`"Olá me chamo ${nome}, nasci no dia} do mês de ${data.split(data,2)} do ano de {ANO}"`)
+
+    return(`"Olá me chamo ${nome}, nasci no dia} do mês de ${arraydata[0]} do ano de ${arraydata[1]}"`)
 
 
 }
+
+exer1("Raul","21/02/1997")
+console.log(exer1)
