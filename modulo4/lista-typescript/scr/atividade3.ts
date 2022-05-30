@@ -6,3 +6,9 @@ enum GENERO {
 	TERROR="terror"
 }
 
+type Descrição = {
+    nome: string,
+    anoLançamento: number,
+    genero: GENERO,
+    pontuação: number
+}
