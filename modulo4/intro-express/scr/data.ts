@@ -1,23 +1,43 @@
 export const users = [
-
+    {
+        id: "Treinadores",
+        posts: [
             {
                 id:"28654759652",
-                name:"Pasta1",
-                Usuarios:[
+                name:"Humanos",
+                usuarios:[
                     {
                         id: "4a7-83d62-58h62a5",
-                        name:"Raul Cezar",
-                        Phone: "94 988044125",
-                        Email: "raulcezar88@gmail.com"
+                        name:"Ash",
+                        cidade: "kanto",
+                        
                     },
                     {
+
                         id: "4a7-83d62-58h62a5",
-                        name:"Isabela",
-                        Phone: "94 988044145",
-                        Email: "raulcezar758@gmail.com"
+                        name:"Ash",
+                        cidade: "kanto",
+
                     },
                 ]
             }
         ]
-    
- 
+    },
+    {
+        id: "Pokemons",
+        posts: [
+            {
+                id:"285624759654",
+                name:"Eletricos",
+                usuarios:[
+                    {
+                        id: "4c7-85d62-5822a5",
+                        name:"picachu",
+                        cidade: "kanto",
+                        
+                    }
+                ]
+            }
+        ]
+    }    
+]

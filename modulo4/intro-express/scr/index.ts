@@ -25,7 +25,7 @@ app.get("/Main", (req, res) => {
         const listaUsuarios = users
 
         const userPlaylist = listaUsuarios.map((cadaUsuario) => {
-            return cadaUsuario.Usuarios
+            return cadaUsuario.posts
         })
 
         const result = userPlaylist.flat(1)
@@ -39,10 +39,26 @@ app.get("/Main", (req, res) => {
     }
 })
 
-app.get('/cadastro/:nome', (req: Request, res: Response) => {
+app.get('/posts', (req: Request, res: Response) => {
 
-    console.log("req.body", req.body.nome)
+    try {
+        console.log(req.query)
 
+        const playlistId = req.query.id
+        let playTracks: {}[] = []
 
-    
+        for (let element of users) {
+            for (let playlist of element.posts) {
+                if (playlist.id === playlistId) {
+                    playTracks.push(playlist.usuarios)
+                }
+            }
+        }
+
+        res.status(200).send(playTracks)
+
+    }
+    catch (error) {
+        res.status(400).end("Id não encontrado")
+    }
 })
