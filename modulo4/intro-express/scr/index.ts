@@ -42,20 +42,19 @@ app.get("/Main", (req, res) => {
 app.get('/posts', (req: Request, res: Response) => {
 
     try {
-        console.log(req.query)
-
-        const playlistId = req.query.id
-        let playTracks: {}[] = []
+        
+        const PostId = req.query.id
+        let usuarios: {}[] = []
 
         for (let element of users) {
-            for (let playlist of element.posts) {
-                if (playlist.id === playlistId) {
-                    playTracks.push(playlist.usuarios)
+            for (let post of element.posts) {
+                if (post.id === PostId) {
+                    usuarios.push(post.usuarios)
                 }
             }
         }
 
-        res.status(200).send(playTracks)
+        res.status(200).send(usuarios)
 
     }
     catch (error) {
