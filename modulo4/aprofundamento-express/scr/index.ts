@@ -53,3 +53,35 @@ app.get("/afazeres", (req,res) => {
    }
 }
    )
+
+   app.post('/afazeres/create', (req, res) => {
+
+        try{
+
+            const afazeresNome = req.body.name;
+
+            if(!afazeresNome)
+            throw new Error("É nescessario informar o nome da Tarefa");
+
+            const NewAfazeres = {
+                id:"",
+                statusGeral:"",
+                Tarefas:[]
+            }
+
+            users.push(afazeresNome);
+            res
+               .status(201)
+               .send(`A Tarefa ${afazeresNome} foi criada com sucesso!`);
+            
+
+        }
+
+        catch{
+
+            
+        }
+
+
+
+   })
