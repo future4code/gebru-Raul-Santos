@@ -1,4 +1,5 @@
 export type Clientes = {
+    id:any,
     name: string,
     cpf: string,
     aniversario: string,
@@ -9,7 +10,7 @@ export type Clientes = {
 export type Transaction = {
     valor: number,
     date: string,
-    descrição: Operação
+    descrição:string
 };
 
 export enum Operação {
@@ -24,7 +25,8 @@ export enum Operação {
 
 
 export const bancoDados: Clientes[]= [
-    {
+    {   
+        id:455755,
         name: "Raul Santos",
         cpf: "027.422.292.21",
         aniversario: "01/02/1995",
@@ -53,6 +55,7 @@ export const bancoDados: Clientes[]= [
         ]
     },
     {
+        id:45445,
         name: "Eliane Silva dos Santos",
         cpf: "454.788.787.24",
         aniversario: "02/12/1974",
