@@ -15,3 +15,4 @@ app.get("/users", (req: Request, res: Response) => {
     res.status(errorCode).send({ message: error.message });
   }
 });
+
